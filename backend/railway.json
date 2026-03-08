@@ -1,18 +1,1 @@
-{
-  "build": {
-    "builder": "NIXPACKS"
-  },
-  "deploy": {
-    "startCommand": "node server.js",
-    "restartPolicyType": "ON_FAILURE",
-    "restartPolicyMaxRetries": 10
-  }
-}
-
-
-Save with **Ctrl + S**.
-
-Then create one more file in the **backend** folder called **.env.example** and paste this:
-```
-PORT=3001
-DB_PATH=./data
+{"build":{"builder":"NIXPACKS"},"deploy":{"startCommand":"node server.js","restartPolicyType":"ON_FAILURE","restartPolicyMaxRetries":10}}
