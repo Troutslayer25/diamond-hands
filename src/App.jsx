@@ -152,9 +152,9 @@ export default function App() {
       {/* Footer */}
       <footer className="border-t border-surface-700 bg-surface-900">
         <div className="max-w-screen-2xl mx-auto px-6 py-4 flex flex-col sm:flex-row items-center justify-between gap-2">
-          <span className="text-xs font-mono text-gray-600">
-            © {new Date().getFullYear()} DiamondHands · For informational purposes only. Not financial advice.
-          </span>
+        <span className="text-3xl font-display tracking-widest text-brand-gold leading-none">IRA'S</span>
+<span className="text-3xl font-display tracking-widest text-gray-100 leading-none">SCREEN TRACKER</span>
+<span className="ml-1 text-xl">📈</span>
           <div className="flex items-center gap-5 text-xs font-mono text-gray-600">
             {["Privacy", "Terms", "API", "Status"].map((l) => (
               <a key={l} href="#" className="hover:text-brand-gold transition-colors">{l}</a>
