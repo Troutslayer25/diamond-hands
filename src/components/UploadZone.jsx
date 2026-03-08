@@ -20,7 +20,7 @@ export default function UploadZone({ onUploadSuccess }) {
     formData.append('file', file);
 
     try {
-      const res = await fetch('https://diamond-hands-production.up.railway.app', {
+      const res = await fetch('https://diamond-hands-production.up.railway.app/api/upload', {
         method: 'POST',
         body: formData
       });
