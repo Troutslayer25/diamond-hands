@@ -21,7 +21,7 @@ export default function App() {
   const fetchScorecards = async () => {
     setLoading(true);
     try {
-      const res = await fetch('http://localhost:3001/api/scorecards');
+      const res = await fetch('https://diamond-hands-production.up.railway.app');
       const data = await res.json();
       setScorecards(data);
     } catch (err) {
